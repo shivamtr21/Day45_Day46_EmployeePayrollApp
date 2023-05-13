@@ -51,34 +51,91 @@
                     <label>
                     <input type="radio" id="profile1" name="profile" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqDGwIur5XDTCFZAt-lfDhAyTpCWQ-BbaN1w&usqp=CAU" required>
 
-                    <img class="profile" id="image1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqDGwIur5XDTCFZAt-lfDhAyTpCWQ-BbaN1w&usqp=CAU">
+                    <img class="profile" id="image1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqDGwIur5XDTCFZAt-lfDhAyTpCWQ-BbaN1w&usqp=CAU" alt="">
 
-                </label>
+                    </label>
 
                     <label>
                     <input type="radio" id="profile2" name="profile" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt7XUvCx0eu1XFU54M2jtlG-V3_gSY7tEu3A&usqp=CAU" required>
 
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt7XUvCx0eu1XFU54M2jtlG-V3_gSY7tEu3A&usqp=CAU" class="profile" id="image2" alt="">
 
-                </label>
+                    </label>
 
                     <label>
                     <input type="radio" id="profile3" name="profile" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoc0GhmW5Aa1myPOk0vMVd7wEt_ecukQ9UfA&usqp=CAU" required>
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoc0GhmW5Aa1myPOk0vMVd7wEt_ecukQ9UfA&usqp=CAU" class="profile" id="image3" alt="">
 
-                </label>
+                    </label>
 
                     <label>
                     <input type="radio" id="profile4" name="profile" value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt7XUvCx0eu1XFU54M2jtlG-V3_gSY7tEu3A&usqp=CAU" required>
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt7XUvCx0eu1XFU54M2jtlG-V3_gSY7tEu3A&usqp=CAU" class="profile" id="image4" alt="">
-                </label>
-
+                    </label>
 
                 </div>
 
+            </div>
 
+
+            <!-----------UC 4-------->
+
+
+
+            <div class="row-content">
+                <lable class="label text" for="gender">Gender</lable>
+                <div>
+                    <input type="radio" id="male" name="gender" value="male">
+
+                    <label class="text" for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="female">
+
+                    <label class="text" for="female">Female</label>
+
+                </div>
+            </div>
+
+
+            <div class="row-content">
+
+                <label class="label text" for="department">Department</label>
+
+                <div>
+                    <input class="checkbox" type="checkbox" id="hr" name="hr" value="HR">
+                    <label for="hr" class="text">HR</label>
+
+                    <input class="checkbox" type="checkbox" id="sales" value="Sales">
+                    <label for="sales" class="text">Sales</label>
+
+                    <input class="checkbox" type="checkbox" id="finance" name="finance" value="Finance">
+                    <label for="finance" class="text">Finance</label>
+
+                    <input class="checkbox" type="checkbox" id="engineer" name="engineer" value="Engineer">
+                    <label for="engineer" class="text">Engineer</label>
+
+                    <input class="checkbox" type="checkbox" id="others" name="others" value="Others">
+                    <label for="others" class="text">others</label>
+
+
+                </div>
+            </div>
+
+
+
+            <div class="row-content">
+
+                <label for="salary" class="label text">Choose your salary:</label>
+                <input type="range" class="input" name="salary" id="salary" min="30000" max="50000" step="100" value="400000">
+
+                <output class="salary-output text" for="salary">400000</output>
 
             </div>
+
+
+
+
+
 
         </form>
 
